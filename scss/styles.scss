@@ -1,0 +1,12 @@
+@import "variables";
+
+@import "reset";
+
+@import "small-default";
+
+@media only screen and (min-width: 29rem) {
+    @import "medium";
+} // end media query
+
+//29rem (or 464px) is a safe breakpoint on phones between the portrait and landscape orientations
+
